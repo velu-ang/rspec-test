@@ -25,10 +25,9 @@
     <%= form.label :phone %>
     <%= form.text_field :phone,id: "phone" %>
   </div>
-
   <div class="field">
     <%= form.label :photo %>
-    <%= form.text_field :photo , id: "photo"%>
+    <%= form.file_field :photo , id: "photo", value: "#{@user.photo.url}"%>
   </div>
 
   <div class="field">
@@ -37,33 +36,29 @@
   </div>
 
   <div class="actions">
-    <%= form.submit "cleate", :class=> "btn btn-success"%>
+    <%= form.submit "cleate", :class=> "btn btn-success submit"%>
   </div>
 <% end %>
-<script>
+<!-- <script>
   $(document).ready(function () {
-
-    $('#myform').validate({ // initialize the plugin
-        rules: {
-            name: {
-                required: true,
-                minlength: 5
-            },
-            email: {
-                required: true,
-                email: true
-            }.
-            phone: {
-              required: true,
-              minlength: 10,
-              maxlength: 10
-            }
-        }
-          submitHandler: function (form) { // for demo
-            alert('valid form submitted'); // for demo
-            return false; // for demo
-        }
+    
+    alert(document.getElementById("name"));
+$(".submit").attr('disabled', 'disabled');
+    $("#name").keyup(function(){
+      $(".submit").attr('disabled', 'disabled');
+    });
+     $("#email").keyup(function(){
+      $(".submit").attr('disabled', 'disabled');
+    });
+      $("#phone").keyup(function(){
+      $(".submit").attr('disabled', 'disabled');
+    });
+       $("#photo").keyup(function(){
+      $(".submit").attr('disabled', 'disabled');
+    });
+        $("#address").keyup(function(){
+      $(".submit").attr('disabled', 'disabled');
     });
 
 });
-</script>
+</script> -->
