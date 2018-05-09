@@ -1,21 +1,95 @@
 require 'rails_helper'
 require 'byebug'
 RSpec.describe UsersController, type: :controller do
-  context 'GET #index' do
-    it "index page should load at first" do
-      get :index
-      expect(response).to be_success #response.success
-    end
+context "user get from json" do
+  it "test using an api on rspec" do
+    get("index")
+    p "index data"
+    json = response.status
+    puts json
+    resp = expect(json).to eql(200)
+    puts resp
   end
+end
+context "user create" do
+  it "create user by using rspec new " do
+    @user = get("index")
+    expect(@user.responds_code).to eql(200)
+  end
+  it "do create on api" do
+    post "create", params: {:user => {name: "velusamy", email: "velusamy", phone: "velusamy"}}
+    expect(@user.status).to eql(302)
+  end
+end
 
-  context "GET #show" do
-    it "show some data in view" do
-      user = User.create(name: "csd", email: "sdfs", phone: "34567")
-      get :show, params: {id: user.to_param}
-      expect(response).to be_success
-    end
+  # puts "inside user controller"
+
+  # context 'GET #index' do
+  #   puts "index method"
+  #   it "index page should load at first" do
+  #     puts "loaded"
+  #     user = User.all
+  #     puts user
+  #     get :index
+  #     resp = expect(response).to be_successful #response.success
+  #     puts resp
+  #   end
+  # end
+
+  # context "GET #show" do
+  #   puts "inside show"
+  #   it "show some data in view" do
+  #     user = User.create(name: "csd", email: "sdfs", phone: "34567")
+  #     get :show, params: {id: user.to_param}
+  #     puts user
+  #     resp = expect(response).to be_successful
+  #     puts "show response #{resp}"
+  #   end
     
-  end
+  # end
+  # context "Delete #delete" do
+  #   it "delete an record" do
+  #     user = User.create
+
+  #     delete :destroy, params: {id: user.id}
+  #     puts "delete user #{user.id}"
+  #     puts "respon #{response}"
+  #     resp = expect(response).to be_successful
+  #     puts "delete #{resp}"
+  #   end
+  # end
+  # context "new #new" do
+  #   it "get new on controller" do
+  #     user = User.new
+  #     expect(response).to be_successful
+  #   end
+  # end
+  # context "Update #update" do |val|
+  #   it "update records" do
+  #     user = User.create(name: "velu", email: "velu", phone: "velu")
+  #     puts user.name
+  #     patch :users , params: {:user=> {name: "velusamy", email: "velusamy", phone: "velusamy"}, :format => "json", :method => "patch"}
+  #     #expect(flash[:notice]).to #eq "User was successfully created."
+  #     resp = expect(response).to be_successful
+  #     puts "response #{resp}"
+  #   end
+    
+  # end
+  # context "create #create" do
+  #   it "create an record" do 
+  #     post :create, params: {:user=> {name: "velusamy", email: "velusamy", phone: "velusamy", photo: "file:///C:/Users/velusamy/Downloads/my%20photo1.jpg"}}
+  #     resp = expect(response).to be_successful
+  #     expect(flash[:notice]).to eq "User was successfully created."
+  #     puts "created #{resp}"
+  #   end
+  #   it "error while creation" do 
+  #     post :create, params: {name: "velusamy", email: "velusamy", phone: "velusamy"}
+  #     resp = expect(response).to be_failiure
+  #     puts "created #{resp}"
+  #   end
+  # end
+
+
 end
 # RSpec.describe UsersController do
 #   describe "GET index" do

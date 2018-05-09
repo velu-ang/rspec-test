@@ -1,7 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "c:/Sites/rspec-test/spec/controllers/users_controller_spec.rb": [
+      "/home/velu/My Projects/rspec-test/spec/controllers/users_controller_spec.rb": [
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         1,
@@ -11,12 +15,82 @@
         1,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
         null,
         1,
         1,
         1,
-        1,
-        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -89,7 +163,7 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/spec/rails_helper.rb": [
+      "/home/velu/My Projects/rspec-test/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -148,14 +222,14 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/environment.rb": [
+      "/home/velu/My Projects/rspec-test/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "c:/Sites/rspec-test/config/application.rb": [
+      "/home/velu/My Projects/rspec-test/config/application.rb": [
         1,
         null,
         1,
@@ -179,13 +253,13 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/boot.rb": [
+      "/home/velu/My Projects/rspec-test/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "c:/Sites/rspec-test/config/environments/test.rb": [
+      "/home/velu/My Projects/rspec-test/config/environments/test.rb": [
         1,
         null,
         null,
@@ -233,7 +307,7 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/initializers/application_controller_renderer.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -243,7 +317,7 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/initializers/assets.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -259,7 +333,7 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/initializers/backtrace_silencers.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -268,7 +342,7 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/initializers/content_security_policy.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/content_security_policy.rb": [
         null,
         null,
         null,
@@ -295,20 +369,20 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/initializers/cookies_serializer.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "c:/Sites/rspec-test/config/initializers/filter_parameter_logging.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "c:/Sites/rspec-test/config/initializers/inflections.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -326,13 +400,13 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/initializers/mime_types.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/initializers/wrap_parameters.rb": [
+      "/home/velu/My Projects/rspec-test/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -348,39 +422,30 @@
         null,
         null
       ],
-      "c:/Sites/rspec-test/config/routes.rb": [
+      "/home/velu/My Projects/rspec-test/config/routes.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "c:/Sites/rspec-test/app/helpers/application_helper.rb": [
+      "/home/velu/My Projects/rspec-test/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "c:/Sites/rspec-test/app/helpers/users_helper.rb": [
+      "/home/velu/My Projects/rspec-test/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "c:/Sites/rspec-test/app/controllers/users_controller.rb": [
+      "/home/velu/My Projects/rspec-test/app/controllers/users_controller.rb": [
         1,
         1,
         null,
         null,
         null,
         1,
-        1,
+        2,
         null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        0,
         null,
         null,
         null,
@@ -388,28 +453,23 @@
         null,
         null,
         null,
-        null,
         1,
         0,
         null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
         null,
         null,
+        1,
         null,
         null,
         null,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
+        1,
+        null,
+        1,
+        1,
+        2,
+        1,
         null,
         0,
         0,
@@ -425,35 +485,63 @@
         0,
         0,
         null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
         null,
         null,
         1,
         null,
         1,
+        0,
+        null,
+        null,
+        null,
+        1,
         1,
         null,
+        null
+      ],
+      "/home/velu/My Projects/rspec-test/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/home/velu/My Projects/rspec-test/spec/models/user_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
-        null,
+        1,
         1,
         0,
         null,
         null
       ],
-      "c:/Sites/rspec-test/app/controllers/application_controller.rb": [
+      "/home/velu/My Projects/rspec-test/app/models/user.rb": [
         1,
-        null
-      ],
-      "c:/Sites/rspec-test/app/models/user.rb": [
-        1,
-        1,
-        null
-      ],
-      "c:/Sites/rspec-test/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "c:/Sites/rspec-test/app/uploaders/profile_uploader.rb": [
+      "/home/velu/My Projects/rspec-test/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/velu/My Projects/rspec-test/app/uploaders/profile_uploader.rb": [
         1,
         null,
         null,
@@ -503,6 +591,6 @@
         null
       ]
     },
-    "timestamp": 1525779829
+    "timestamp": 1525863402
   }
 }
